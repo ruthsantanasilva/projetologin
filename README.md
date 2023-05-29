@@ -4,5 +4,5 @@
 <ul>
  <li> 1º Projeto de Página Login em HTML e CSS</li>
 <ul>
-
-<a href="https://ruthsantanasilva.github.io/projetologin/login.html"> Esta é a minha primeira página de Login e Senha com HTML e CSS!</a>
+<br>
+<a href="https://ruthsantanasilva.github.io/projetologin/login.html" target="_blank"> Esta é a minha primeira página de Login com HTML e CSS!</a>
