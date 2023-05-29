@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1: #F2E205;
+    --cor2: #736B02;
+    --cor3: #F4E511;
+    --cor4: #736E25;
+    --cor5: #BFB304;
+
+    --font1: 'Courgette', cursive;
+    --font2: 'Fjalla One', sans-serif;
+
+}
+
+body {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    height: 789px;
+}
+
+nav {
+    padding: 15px;
+    background-color: transparent;
+    margin: auto;
+    margin-top: 10px;
+    width: 455px;
+}
+
+nav>a {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: var(--font2);
+    color: var(--cor2);
+    margin-left: 50px;
+}
+
+nav>a:hover {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: var(--font2);
+    font-weight: bold;
+    color: white;
+    margin-left: 50px;
+    text-shadow: 0px 0px 3px var(--cor2);
+}
+
+main {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1000px;
+}
+
+aside {
+    width: auto;
+    height: 500px;
+    margin: 0px auto 0px auto;
+    color: aliceblue;
+    background-color: var(--cor4);
+    border-radius: 10px;
+}
+
+article>form {
+    position: absolute;
+    margin: 0px auto 0px auto;
+    left: 550px;
+    width: 400px;
+    height: 455px;
+    top: 20px;
+    color: white;
+}
+
+fieldset {
+    padding: 20px;
+    border-style: none;
+    height: 435px;
+}
+
+legend {
+    font-family: var(--font1);
+    text-align: center;
+    font-size: 3.5em;
+    text-shadow: 0px 0px 4px var(--cor1);
+    margin-bottom: 20px;
+}
+
+label {
+    font-family: var(--font1);
+    font-size: 1.2em;
+}
+
+.campo_email {
+    font-size: 1em;
+    font-family: var(--font2);
+    padding: 5px;
+    margin-top: 30px;
+    width: 230px;
+    border-color: var(--cor1);
+    border: 0;
+    margin-left: 7px;
+    border-radius: 2px;
+}
+
+.campo_senha {
+    font-size: 1em;
+    font-family: var(--font2);
+    padding: 5px;
+    margin-top: 40px;
+    width: 230px;
+    border-color: var(--cor1);
+    border: 0;
+    margin-left: 11px;
+    border-radius: 2px;
+}
+
+article {
+    position: absolute;
+    background-color: var(--cor1);
+    width: 500px;
+    height: 500px;
+    margin: 0px auto 0px auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0px;
+}
+
+.btn_submit {
+    font-family: var(--font1);
+    font-size: 1.5em;
+    margin-top: 100px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    margin: 65px;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0px 0px 3px var(--cor1);
+}
+
+.btn_submit:hover {
+    font-family: var(--font1);
+    font-size: 1.5em;
+    margin-top: 100px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    margin: 65px;
+    border-radius: 10px;
+    border: 0;
+    background-color: var(--cor3);
+    color: black;
+}
+
+footer {
+    margin-top: 125px;
+    padding: 20px;
+    font-size: 0.8em;
+    font-family: var(--font2);
+    background-color: var(--cor4);
+    color: white;
+    text-align: center;
+}
+
+footer p>a {
+    text-decoration: none;
+    color: white;
+}
+
+footer p>a:hover {
+    color: var(--cor1);
+    text-decoration: underline;
+}
