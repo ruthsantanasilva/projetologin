@@ -25,7 +25,6 @@
 
 body {
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
-    height: 789px;
 }
 
 nav {
@@ -57,7 +56,7 @@ nav>a:hover {
 main {
     margin: auto;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 309px;
     max-width: 1000px;
 }
 
@@ -163,7 +162,6 @@ article {
 }
 
 footer p {
-    margin-top: 137px;
     padding: 15px;
     font-size: 0.8em;
     font-family: var(--font2);
