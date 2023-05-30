@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
+/*Este site não está responsivo ainda!*/
 
 * {
     margin: 0px;
@@ -57,7 +58,7 @@ main {
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    width: 1000px;
+    max-width: 1000px;
 }
 
 aside {
@@ -161,22 +162,23 @@ article {
     color: black;
 }
 
-footer {
-    margin-top: 125px;
-    padding: 20px;
+footer p {
+    margin-top: 137px;
+    padding: 15px;
     font-size: 0.8em;
     font-family: var(--font2);
     background-color: var(--cor4);
     color: white;
     text-align: center;
+
 }
 
-footer p>a {
+footer a {
     text-decoration: none;
     color: white;
 }
 
-footer p>a:hover {
+footer a:hover {
     color: var(--cor1);
     text-decoration: underline;
 }
